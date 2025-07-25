@@ -1,0 +1,102 @@
+[
+  {
+    "eventId": 1,
+    "eventName": "Echoes Unplugged: Live Indie Night",
+    "revenue": 75000
+  },
+  {
+    "eventId": 2,
+    "eventName": "Raaga Rhythms",
+    "revenue": 52000
+  },
+  {
+    "eventId": 3,
+    "eventName": "Startup Pitch Fest",
+    "revenue": 34000
+  },
+  {
+    "eventId": 4,
+    "eventName": "Campus Tech Carnival",
+    "revenue": 41000
+  },
+  {
+    "eventId": 5,
+    "eventName": "Open Mic Night",
+    "revenue": 28000
+  },
+  {
+    "eventId": 6,
+    "eventName": "Debate Showdown",
+    "revenue": 23000
+  },
+  {
+    "eventId": 7,
+    "eventName": "Innovation Expo 2025",
+    "revenue": 89000
+  },
+  {
+    "eventId": 8,
+    "eventName": "Bollywood Beats Fest",
+    "revenue": 67000
+  },
+  {
+    "eventId": 9,
+    "eventName": "Food Fusion Fiesta",
+    "revenue": 59000
+  },
+  {
+    "eventId": 10,
+    "eventName": "Code Sprint Marathon",
+    "revenue": 75000
+  },
+  {
+    "eventId": 11,
+    "eventName": "Women in Tech Panel",
+    "revenue": 38000
+  },
+  {
+    "eventId": 12,
+    "eventName": "Comedy Punchlines",
+    "revenue": 46000
+  },
+  {
+    "eventId": 13,
+    "eventName": "Photography Workshop",
+    "revenue": 30000
+  },
+  {
+    "eventId": 14,
+    "eventName": "Science Symposium",
+    "revenue": 42000
+  },
+  {
+    "eventId": 15,
+    "eventName": "Eco Sustainability Drive",
+    "revenue": 27000
+  },
+  {
+    "eventId": 16,
+    "eventName": "Music & Lights: DJ Night",
+    "revenue": 83000
+  },
+  {
+    "eventId": 17,
+    "eventName": "Chess Masters Cup",
+    "revenue": 21000
+  },
+  {
+    "eventId": 18,
+    "eventName": "AI & Robotics Conference",
+    "revenue": 95000
+  },
+  {
+    "eventId": 19,
+    "eventName": "Literature Fest 2025",
+    "revenue": 37000
+  },
+  {
+    "eventId": 20,
+    "eventName": "Startup Founders' Meetup",
+    "revenue": 56000
+  }
+]

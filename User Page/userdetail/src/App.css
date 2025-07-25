@@ -1,0 +1,614 @@
+/* Header */
+/* Starts header */
+.btn{
+  margin-left: 1200px;
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  flex: 1;
+}
+.btn button{
+  margin-top: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: 400;
+  background-color: white;
+  color: black;
+  border: 0;
+  transition: ease-in 0.3s;
+}
+.btn button:hover{
+  cursor: pointer;
+}
+#dropdown{
+  margin-top: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: 400;
+  border: 0;
+}
+.header{
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.image{
+  float: left;
+  margin: 20px;
+ margin-top: 10px;
+}
+.image img{
+  border-radius: 10px;
+}
+.name{
+  margin-top: 23px;
+  float: right;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+/* Header ends */
+/* Login */
+/* Gradient bg for login page  */
+body.light{
+  background: linear-gradient(to bottom, #DCEFFF, #FFFFFF); 
+  /* background-color: black; */
+  /* background-color: 	#2E2E2E; */
+  color: black;
+}
+body.dark{
+  background: linear-gradient(to bottom, #2b5876, #4e4376);
+  /* background-color: black; */
+  color: white;
+}
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input{
+  display: flex;
+  width: 500px;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: ease-in 0.3s;
+  background-color: white;
+  border-radius: 20px;
+}
+.input:hover{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+.loginform{
+  display: flex;
+  flex-direction: column;
+}
+.email{
+
+  margin-bottom: 20px;
+  font-size: medium;
+  border-radius: 10px;
+  height: 33px;
+  width: 290px;
+}
+.password{
+ 
+  margin-bottom: 20px;
+  font-size: medium;
+  border-radius: 10px;
+  height: 33px;
+  width: 290px;
+}
+.loginbtn{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: 400;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: 2px;
+  transition: ease-in 0.3s;
+}
+.loginbtn:hover{
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px;
+  /* background-color: black;
+  color: white; */
+}
+.new{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: 400;
+}
+.heading{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Normal Gradinet bg for other pages  */
+.user_req{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reqform{
+  display: flex;
+  flex-direction: column;
+}
+.req-name,.req-id,.req-location,.req-event,.req-email,.req-mobile,.req-date{
+  margin-bottom: 25px;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  border-radius: 10px;
+  height: 33px;
+  width: 290px;
+}
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 150px;
+}
+.req-btn{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: larger;
+  border: 0;
+  font-weight: 500;
+  width: 70%;
+  margin-left: 40px;
+  transition: ease-in 0.3s;
+  background-color: white;
+}
+.req-btn:hover{
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+/* Home Page */
+.card_name,.card_type,.card_date,.card_location,.card_time{
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 400;
+}
+.home_container{
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;           
+  gap: 20px;                
+  justify-content: center;  
+  padding: 20px;
+}
+.home_card{
+  width: 250px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: ease-in 0.3s;
+}
+.home_card:hover {
+  transform: translateY(-5px);
+}
+.card_image{
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  margin-left: 0;
+  /* margin-right: 20px; */
+}
+.card_btn{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: larger;
+  border: 0;
+  font-weight: 500;
+  width: 70%;
+  margin-left: 40px;
+  transition: ease-in 0.3s;
+  background-color: white;
+}
+.card_btn:hover{
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+/* SingleEvent */
+.event-detail{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+.inner-event{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 10px;
+  line-height: 2;
+  /* margin: 0 auto; */
+}
+.inner-event p{
+  padding: 5px;
+}
+.proceed{
+  font-style: italic;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+  border: 0;
+  font-weight: 500;
+  height: 70px;
+  width: 100%;
+  border-radius: 20px;
+  /* width: 20%; */
+  margin-left: 40px;
+  transition: ease-in 0.3s;
+  background-color: white;
+}
+.proceed:hover{
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+.inner-last{
+  margin-top: 10%;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: 400;
+}
+.inner-heading{
+  font-style: italic;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* Payment Form  */
+.form{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 530px;
+  margin-bottom: 80px;
+  /* gap: 20px; */
+}
+.form label{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: 400;
+  font-style: italic;
+  text-align: right;
+  width: 340px;
+}
+.form input{
+  height: 30px;
+  border-radius: 10px;
+  width: 163px;
+}
+.paybtn{
+  margin-left: 700px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  width: 20%;
+  font-style: italic;
+  border: 0;
+  font-weight: 500;
+  margin-left: 600px;
+  background-color: white;
+  transition: ease-in 0.3s;
+}
+.paybtn:hover{
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+.paymenttop{
+  margin-left: 636px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* Ticket Page */
+.inner-ticket{
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 150px;
+  margin-left: 600px;
+  font-style: italic;
+}
+.ticket-heading{
+    margin-bottom: 70px;
+}
+.ticket-content{
+    margin-bottom: 40px;
+    font-size: larger;
+    font-weight: 500;
+}
+.ticket-content1{
+  /* background: linear-gradient(to right, #ffecd2, #fcb69f); */
+  /* background: linear-gradient(to right, #ff9f80, #ff6e40); */
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+  margin-top: 70px;
+  margin-left: 570px;
+  margin-bottom: 20px;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 600;
+}
+.ticket-content2{
+  margin-top: 40px;
+  margin-left: 570px;
+  margin-bottom: 30px;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 600;
+}
+/* Sign UP */
+.signup-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+ .formdetail{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 100px;
+ }
+ .formdetail input{
+  border-radius: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: large;
+ }
+ .signupbtn{
+    /* border-radius: 10px; */
+    border: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: large;
+  background-color: white;
+  transition: ease-in 0.3s;
+ }
+ .signupbtn:hover{
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+ }
+ .formdetail label{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: large;
+ }
+ /* HomeHeader Page CSS */
+ .fixed{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+ }
+ nav{
+  padding: 10px;
+  /* position: sticky; */
+  margin-left: 840px;
+}
+ .homeheadbtn{
+  margin-right: 10px;
+  border: 0;
+  border-radius: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  position: sticky;
+  /* background-color: white; */
+  background: linear-gradient(to bottom, #DCEFFF, #FFFFFF); 
+  transition: ease-in 0.3s;
+ }
+ .homeheadbtn:hover{
+  border-radius: 10px;
+  cursor: pointer;
+  background-color:#f0f0f0;
+ }
+ /* Dark mode home header button */
+ .dark .homeheadbtn {
+  background: linear-gradient(to bottom, #2C4C65, #1A2F43);
+  /* background: linear-gradient(to bottom, #2b5876, #4e4376); mergerd exactly */
+  color: white;
+}
+
+.dark .homeheadbtn:hover {
+  background-color: #3B5D76;
+}
+ /* BookedEvents Page */
+ .bookedevents-container{
+  display: flex;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 15px;
+  /* background: linear-gradient(to bottom, #DCEFFF, #FFFFFF); */
+ }
+ .bookedevents{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 30px;
+  width: 250px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: ease-in 0.3s;
+ }
+ .bookedevents:hover{
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+ }
+ .top-content{
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+ }
+ .help-heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+ }
+.form-heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: larger;
+}
+.form-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inputdetail{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  height: 50px;
+  font-weight: 500;
+  border-radius: 10px;
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.inputdetailtextbox{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  height: 100px;
+  width: 300px;
+  font-weight: 500;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.helpbtn{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: larger;
+  border: 0;
+  margin-top: 30px;
+  font-weight: 500;
+  width: 20%;
+  margin-left: 40px;
+  transition: ease-in 0.3s;
+  background-color: white;
+}
+.helpbtn:hover{
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 10px;
+}
+/* Frequently Asked Question Page  */
+.faq-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.faq-heading{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-item{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: large;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+.faq-btn{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: x-large;
+  border: 0;
+  margin-top: 30px;
+  font-weight: 500;
+  width: 35%;
+  margin-left: 155px;
+  transition: ease-in 0.3s;
+  background-color: white;
+}
+.faq-btn:hover{
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+/* My profile  */
+.profile-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.myprofile{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-style: italic;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.profilepic{
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+}
+.profiledetail{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: larger;
+  font-weight: 600;
+}
+.profilebtn{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: larger;
+  border: 0;
+  font-weight: 500;
+  width: 20%;
+  margin-left: 40px;
+  transition: ease-in 0.3s;
+  background-color: white;
+}
+.profilebtn:hover{
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 10px;
+}
+/* very last booked events optional */

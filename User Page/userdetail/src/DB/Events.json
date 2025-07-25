@@ -1,0 +1,191 @@
+[
+  {
+    "eventId": 1,
+    "eventName": "Echoes Unplugged: Live Indie Night",
+    "eventType": "Music Concert",
+    "date": "2025-07-05",
+    "time": "7:00 PM",
+    "location": "Phoenix Marketcity, Chennai",
+    "poster": "HomeImage1.jpg"
+  },
+  {
+    "eventId": 2,
+    "eventName": "Raaga Symphony Night",
+    "eventType": "Music Concert",
+    "date": "2025-08-18",
+    "time": "8:00 PM",
+    "location": "Shanmukhananda Hall, Mumbai",
+    "poster": "HomeImage2.jpg"
+  },
+
+  {
+    "eventId": 3,
+    "eventName": "Laugh Riot: Stand-Up Special",
+    "eventType": "Stand-Up Comedy",
+    "date": "2025-07-12",
+    "time": "6:30 PM",
+    "location": "Canvas Laugh Club, Bengaluru",
+    "poster": "HomeImage3.jpg"
+  },
+  {
+    "eventId": 4,
+    "eventName": "Comic Therapy Night",
+    "eventType": "Stand-Up Comedy",
+    "date": "2025-08-02",
+    "time": "7:30 PM",
+    "location": "That Comedy Club, Hyderabad",
+    "poster": "HomeImage4.jpg"
+  },
+
+  {
+    "eventId": 5,
+    "eventName": "Shakespeare Reimagined",
+    "eventType": "Theater/Drama Performance",
+    "date": "2025-07-22",
+    "time": "5:00 PM",
+    "location": "Prithvi Theatre, Mumbai",
+    "poster": "HomeImage5.jpg"
+  },
+  {
+    "eventId": 6,
+    "eventName": "Rangmanch - A Hindi Play Evening",
+    "eventType": "Theater/Drama Performance",
+    "date": "2025-08-14",
+    "time": "6:00 PM",
+    "location": "Ranga Shankara, Bengaluru",
+    "poster": "HomeImage6.jpg"
+  },
+
+  {
+    "eventId": 7,
+    "eventName": "Bollywood Beats: Dance Show",
+    "eventType": "Dance Show",
+    "date": "2025-07-20",
+    "time": "7:00 PM",
+    "location": "Sir Mutha Venkatasubba Rao Concert Hall, Chennai",
+    "poster": "HomeImage7.jpg"
+  },
+  {
+    "eventId": 8,
+    "eventName": "Classical Kathak Night",
+    "eventType": "Dance Show",
+    "date": "2025-08-10",
+    "time": "6:30 PM",
+    "location": "India Habitat Centre, Delhi",
+    "poster": "HomeImage8.jpg"
+  },
+
+  {
+    "eventId": 9,
+    "eventName": "Cinema Under the Stars",
+    "eventType": "Film Screening",
+    "date": "2025-07-28",
+    "time": "8:30 PM",
+    "location": "Cubbon Park, Bengaluru",
+    "poster": "HomeImage9.jpg"
+  },
+  {
+    "eventId": 10,
+    "eventName": "Documentary Night: Planet Earth",
+    "eventType": "Film Screening",
+    "date": "2025-08-05",
+    "time": "6:00 PM",
+    "location": "Alliance Française, Pune",
+    "poster": "HomeImage10.jpg"
+  },
+
+  {
+    "eventId": 11,
+    "eventName": "CodeCraft: Web Development Bootcamp",
+    "eventType": "Workshop",
+    "date": "2025-07-10",
+    "time": "10:00 AM",
+    "location": "T-Hub, Hyderabad",
+    "poster": "HomeImage1.jpg"
+  },
+  {
+    "eventId": 12,
+    "eventName": "Creative Canvas: Watercolor Workshop",
+    "eventType": "Workshop",
+    "date": "2025-08-15",
+    "time": "3:00 PM",
+    "location": "Kalakshetra Foundation, Chennai",
+    "poster": "HomeImage2.jpg"
+  },
+
+  {
+    "eventId": 13,
+    "eventName": "Startup Grind Panel: AI & Future",
+    "eventType": "Panel Discussion",
+    "date": "2025-07-26",
+    "time": "5:00 PM",
+    "location": "CoWrks, Bengaluru",
+    "poster": "HomeImage3.jpg"
+  },
+  {
+    "eventId": 14,
+    "eventName": "Education Reimagined: NEP 2020",
+    "eventType": "Panel Discussion",
+    "date": "2025-08-03",
+    "time": "11:00 AM",
+    "location": "IIT Madras, Chennai",
+    "poster": "HomeImage4.jpg"
+  },
+
+  {
+    "eventId": 15,
+    "eventName": "Mind Wars: Intercollege Debate",
+    "eventType": "Debate",
+    "date": "2025-07-18",
+    "time": "2:00 PM",
+    "location": "Loyola College, Chennai",
+    "poster": "HomeImage5.jpg"
+  },
+  {
+    "eventId": 16,
+    "eventName": "Climate Change: A Public Debate",
+    "eventType": "Debate",
+    "date": "2025-08-07",
+    "time": "4:00 PM",
+    "location": "Delhi University",
+    "poster": "HomeImage6.jpg"
+  },
+
+  {
+    "eventId": 17,
+    "eventName": "Hack the Future: AI Challenge",
+    "eventType": "Hackathon",
+    "date": "2025-07-27",
+    "time": "9:00 AM",
+    "location": "TIDEL Park, Coimbatore",
+    "poster": "HomeImage7.jpg"
+  },
+  {
+    "eventId": 18,
+    "eventName": "HealthTech Sprint 2025",
+    "eventType": "Hackathon",
+    "date": "2025-08-22",
+    "time": "8:00 AM",
+    "location": "Mindspace, Hyderabad",
+    "poster": "HomeImage8.jpg"
+  },
+
+  {
+    "eventId": 19,
+    "eventName": "Mindful Moves: Yoga & Wellness Retreat",
+    "eventType": "Wellness Retreat",
+    "date": "2025-07-30",
+    "time": "6:30 AM",
+    "location": "Isha Yoga Center, Coimbatore",
+    "poster": "HomeImage9.jpg"
+  },
+  {
+    "eventId": 20,
+    "eventName": "SoulSync: Guided Meditation Camp",
+    "eventType": "Meditation Camp",
+    "date": "2025-08-12",
+    "time": "7:00 AM",
+    "location": "Art of Living Ashram, Bengaluru",
+    "poster": "HomeImage10.jpg"
+  }
+]

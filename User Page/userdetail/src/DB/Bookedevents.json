@@ -1,0 +1,65 @@
+[
+    {
+    "eventId": 1,
+    "eventName": "Echoes Unplugged: Live Indie Night",
+    "eventType": "Music Concert",
+    "date": "2025-07-05",
+    "time": "7:00 PM",
+    "location": "Phoenix Marketcity, Chennai",
+    "poster": "HomeImage1.jpg"
+  },
+  {
+    "eventId": 4,
+    "eventName": "Comic Therapy Night",
+    "eventType": "Stand-Up Comedy",
+    "date": "2025-08-02",
+    "time": "7:30 PM",
+    "location": "That Comedy Club, Hyderabad",
+    "poster": "HomeImage4.jpg"
+  },
+  {
+    "eventId": 5,
+    "eventName": "Shakespeare Reimagined",
+    "eventType": "Theater/Drama Performance",
+    "date": "2025-07-22",
+    "time": "5:00 PM",
+    "location": "Prithvi Theatre, Mumbai",
+    "poster": "HomeImage5.jpg"
+  },
+  {
+    "eventId": 6,
+    "eventName": "Rangmanch - A Hindi Play Evening",
+    "eventType": "Theater/Drama Performance",
+    "date": "2025-08-14",
+    "time": "6:00 PM",
+    "location": "Ranga Shankara, Bengaluru",
+    "poster": "HomeImage6.jpg"
+  },  
+  {
+    "eventId": 7,
+    "eventName": "Bollywood Beats: Dance Show",
+    "eventType": "Dance Show",
+    "date": "2025-07-20",
+    "time": "7:00 PM",
+    "location": "Sir Mutha Venkatasubba Rao Concert Hall, Chennai",
+    "poster": "HomeImage7.jpg"
+  },
+    {
+    "eventId": 9,
+    "eventName": "Cinema Under the Stars",
+    "eventType": "Film Screening",
+    "date": "2025-07-28",
+    "time": "8:30 PM",
+    "location": "Cubbon Park, Bengaluru",
+    "poster": "HomeImage9.jpg"
+  },
+  {
+    "eventId": 10,
+    "eventName": "Documentary Night: Planet Earth",
+    "eventType": "Film Screening",
+    "date": "2025-08-05",
+    "time": "6:00 PM",
+    "location": "Alliance Française, Pune",
+    "poster": "HomeImage10.jpg"
+  }
+]

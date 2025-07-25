@@ -1,0 +1,62 @@
+[
+  {
+    "userName": "Arjun R.",
+    "eventName": "Startup Pitch Fest",
+    "eventDate": "2025-07-12",
+    "eventTime": "11:00 AM"
+  },
+  {
+    "userName": "Sneha K.",
+    "eventName": "AI & Machine Learning Workshop",
+    "eventDate": "2025-07-15",
+    "eventTime": "10:30 AM"
+  },
+  {
+    "userName": "Vikram N.",
+    "eventName": "Tech Talk: Future of Web 3.0",
+    "eventDate": "2025-07-18",
+    "eventTime": "3:00 PM"
+  },
+  {
+    "userName": "Priya M.",
+    "eventName": "Robotics Exhibition",
+    "eventDate": "2025-07-20",
+    "eventTime": "1:00 PM"
+  },
+  {
+    "userName": "Rahul D.",
+    "eventName": "Hackathon 2025",
+    "eventDate": "2025-07-22",
+    "eventTime": "9:00 AM"
+  },
+  {
+    "userName": "Divya S.",
+    "eventName": "UI/UX Design Bootcamp",
+    "eventDate": "2025-07-24",
+    "eventTime": "2:00 PM"
+  },
+  {
+    "userName": "Naveen K.",
+    "eventName": "Green Energy Conference",
+    "eventDate": "2025-07-26",
+    "eventTime": "12:00 PM"
+  },
+  {
+    "userName": "Aishwarya R.",
+    "eventName": "E-Sports Championship",
+    "eventDate": "2025-07-28",
+    "eventTime": "4:00 PM"
+  },
+  {
+    "userName": "Manoj P.",
+    "eventName": "Open Mic Night",
+    "eventDate": "2025-07-29",
+    "eventTime": "6:30 PM"
+  },
+  {
+    "userName": "Keerthi V.",
+    "eventName": "Cultural Fest 2025",
+    "eventDate": "2025-07-30",
+    "eventTime": "5:00 PM"
+  }
+]

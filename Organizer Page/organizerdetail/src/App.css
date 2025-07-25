@@ -1,0 +1,676 @@
+/* Header */
+.btn{
+  margin-left: 1200px;
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  flex: 1;
+}
+.btn button{
+  margin-top: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: 400;
+  background-color: white;
+  color: black;
+  border: 0;
+  transition: ease-in 0.3s;
+}
+.btn button:hover{
+  cursor: pointer;
+}
+#dropdown{
+  margin-top: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: 400;
+  border: 0;
+}
+.header{
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.image{
+  float: left;
+  margin: 20px;
+ margin-top: 10px;
+}
+.image img{
+  border-radius: 10px;
+}
+.name{
+  margin-top: 23px;
+  float: right;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+/* Login */
+body{
+  background: linear-gradient(to bottom, #DCEFFF, #FFFFFF); 
+  /* background-color: 	#2E2E2E; */
+  color: black;
+}
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input{
+  display: flex;
+  width: 500px;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: ease-in 0.3s;
+  background-color: white;
+  border-radius: 20px;
+}
+.input:hover{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+.loginform{
+  display: flex;
+  flex-direction: column;
+}
+.email{
+
+  margin-bottom: 20px;
+  font-size: medium;
+  border-radius: 10px;
+  height: 33px;
+  width: 290px;
+}
+.password{
+ 
+  margin-bottom: 20px;
+  font-size: medium;
+  border-radius: 10px;
+  height: 33px;
+  width: 290px;
+}
+.loginbtn{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: 400;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: 2px;
+  transition: ease-in 0.3s;
+}
+.loginbtn:hover{
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px;
+  /* background-color: black;
+  color: white; */
+}
+.new{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: 400;
+}
+.heading{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Organizer Page */
+.org-btn{
+  /* margin-left: 100px;
+  margin-top: 14px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: large;
+  border: 0;
+  transition: ease-in 0.3s;
+  background: linear-gradient(to bottom, #DCEFFF, #FFFFFF); 
+  height: 50px; */
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: larger;
+  border-radius: 10px;
+  font-weight: 500;
+  width: 20%;
+  margin-left: 40px;
+  transition: ease-in 0.3s;
+  background-color: white;
+}
+.org-btn:hover{
+  border-radius: 20px;
+  cursor: pointer;
+background-color: #f0f0f0;
+}
+.org-name{
+  display: flex;
+  /* height: 100vh; */
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.org-container{
+  /* padding: 300px; */
+  padding: 20vh;
+  /* display: flex; */
+    /* text-align: center; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 100vh;
+}
+.event-name{
+  text-align: center;
+}
+.added-events{
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+}
+.event-name{
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: larger;
+}
+.top-name{
+  display: flex;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style:oblique;
+}
+.mainclass{
+  margin-top: 0;
+
+}
+/* Create Event form Page*/
+.innerec{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.formec{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-style: italic;
+}
+.formec input,textarea{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: large;
+  font-weight: 400;
+  border-radius: 10px;
+
+}
+.selectec{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: large;
+  font-weight: 400;
+  border-radius: 10px;
+}
+.checkbox-group{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btnec{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: large;
+  margin: 0;
+  border: 0;
+  background-color: white;
+  transition: ease-in 0.3s;
+}
+.btnec:hover{
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  cursor: pointer;
+  transform: scale(1.1);
+  font-size:large ;
+}
+.headingec{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+/* Side Bar Page */
+ .side-container {
+  position: relative;
+}
+
+.hamburger-icon {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1001;
+  cursor: pointer;
+}
+
+ .bar {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+}
+
+.close-icon {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1;
+  color: black;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+.sidebar {
+  background: linear-gradient(to bottom, #DCEFFF, #FFFFFF);
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 20px;
+  z-index: 100;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar.closed {
+  transform: translateX(-100%);
+}
+.side-heading{
+  margin-top: 70px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic
+}
+.sidelist-items{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: black;
+  font-style: italic;
+
+}
+.list-items{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.no-underline{
+  text-decoration: none;
+}
+/* My evnet page */
+.myevent-heading{
+  font-family: 'Times New Roman', Times, serif;
+    /* margin-left: 620px; */
+    font-size: xx-large;
+    font-weight: bolder;
+  font-style: italic;
+}
+.searchbar{
+  border-radius: 10px;
+    /* margin-left: 600px; */
+    font-size: large;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  height: 30px;
+  width: 300px;
+}
+.innermyevent{
+  text-align: left;
+  margin-top: 10px;
+  /* margin-left: 620px; */
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  line-height: 1.7;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 20ps auto;
+  width: 300px;
+  transition: ease-in 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.innermyevent:hover{
+  cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.event-container{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  /* align-items: center; */
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.myeventbtn{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: large;
+  border: 0;
+  font-weight: 500;
+  width: 70%;
+  margin-left: 40px;
+  border-radius: 10px;
+  transition: ease-in 0.3s;
+   background: linear-gradient(to bottom, #DCEFFF, #FFFFFF);
+}
+.myeventbtn:hover{
+  cursor: pointer;
+  border-radius: 10px;
+  transform: scale(1.1);
+  font-size: larger;
+}
+/* Event Edit Page */
+.event-heading{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edit-form{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  flex-direction: column;
+}
+.form-edit{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.form-edit label{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  width: 60px;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 10px;
+}
+.form-edit input{
+  border-radius: 10px;
+  font-size: large;
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+.editbtn{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: large;
+  border: 0;
+  font-weight: 500;
+  width: 20%;
+  margin-left: 40px;
+  border-radius: 10px;
+  transition: ease-in 0.3s;
+   /* background: linear-gradient(to bottom, #DCEFFF, #FFFFFF); */
+   background-color: white;
+}
+.editbtn:hover{
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 10px;
+}
+/* A-heading */
+.a-heading{
+  margin-top: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+.a-name{
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: 400;
+  font-style: italic;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 15px 15px;
+  width: 300px;
+  transition: ease-in 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.a-name:hover{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+.a-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+.a-btn{
+  border: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: large;
+  font-weight: 400;
+  width: 20%;
+  margin-left: 600px;
+  transition: ease-in 0.3s;
+  background-color: white;
+}
+.a-btn:hover{
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+/* Booked Events Heaidng */
+.bevents-heading{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bevent-content{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: 400;
+  font-style: italic;
+  border-radius: 10px;
+  padding: 15px 20px;
+  box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: ease-in 0.3s; 
+  width: 300px;
+}
+.bevent-content:hover{
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+.bevent-container{
+    display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 20px; 
+  padding: 20px;
+  background: linear-gradient(to bottom, #e0f7ff, #ffffff);
+}
+.bevent-button{
+    border: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: large;
+  font-weight: 400;
+  width: 20%;
+  margin-left: 600px;
+  transition: ease-in 0.3s;
+  background-color: white;
+}
+.bevent-button:hover{
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+/* Revenue Page */
+.r-heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+.r-detail{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: large;
+  font-weight: 400;
+  display: flex;
+  width: 300px;
+  /* background-color: #fff; */
+  background: linear-gradient(to bottom, #e0f7ff, #ffffff);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  transition: ease-in 0.3s;
+}
+.r-detail:hover{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+.revenue-container{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.r-name,.r-revenue,.r-ticket,.r-payment{
+  padding: 5px;
+}
+/* UserRequest Page */
+.req-detail{
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: italic;
+  border-radius: 10px;
+  /* flex-wrap: wrap; */
+  width: 300px;
+  padding: 15px 15px;
+  box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.innerur{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+}
+.req-heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+.req-btn{
+  border: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: large;
+  font-weight: 400;
+  width: 20%;
+  margin-left: 600px;
+  transition: ease-in 0.3s;
+  background-color: white;
+}
+.req-btn:hover{
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+/* Profile page */
+.profile-pic{
+  border-radius: 50%;
+}
+.inner-profile{
+  margin-top: 80px;
+
+}
+.profile-detail{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: large;
+  font-weight: 400;
+}
+.profile-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Signup page */
+.signup-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+ .formdetail{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 100px;
+ }
+ .formdetail input{
+  border-radius: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: large;
+ }
+ .signupbtn{
+    /* border-radius: 10px; */
+    border: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: large;
+  background-color: white;
+  transition: ease-in 0.3s;
+ }
+ .signupbtn:hover{
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+ }
+ .formdetail label{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: large;
+ }
