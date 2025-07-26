@@ -7,7 +7,7 @@ const Bookedevents = () => {
   // const [bevents , setBevents] = useState([]);
   
   //   useEffect(() => {
-  //   axios.get('http://localhost:5000/api/')
+  //   axios.get('https://event-management-server-9kdv.onrender.com/api/')
   //     .then(response => {
   //       setBevents(response.data);
   //     })
@@ -26,7 +26,7 @@ const Bookedevents = () => {
   useEffect(() => {
     const fetchBookings = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/api/bookings/${userId}`, {
+        const res = await axios.get(`https://event-management-server-9kdv.onrender.com/api/bookings/${userId}`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },

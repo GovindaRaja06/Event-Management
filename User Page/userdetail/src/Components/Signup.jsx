@@ -96,7 +96,7 @@ const Signup = () => {
         role: form.role
       };
 
-      const response = await axios.post('http://localhost:5000/auth/register', payload);
+      const response = await axios.post('https://event-management-server-9kdv.onrender.com/auth/register', payload);
 
       // Store token and user info
       localStorage.setItem("token", response.data.token);

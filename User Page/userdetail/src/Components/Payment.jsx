@@ -19,7 +19,7 @@ const Payment = () => {
         // console.log(form);
         // navigate('/ticket',{state:{form}});
         try {
-            const res = await axios.post('http://localhost:5000/api/payments/add', form);
+            const res = await axios.post('https://event-management-server-9kdv.onrender.com/api/payments/add', form);
             console.log(res.data);
             alert('Payment Successful');
             navigate('/ticket', { state: { form } });

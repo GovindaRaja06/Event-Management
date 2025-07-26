@@ -23,7 +23,7 @@ function Userrequest() {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:5000/api/requests/", formData);
+      const response = await axios.post("https://event-management-server-9kdv.onrender.com/api/requests/", formData);
       alert("Request submitted successfully!");
       console.log(response.data);
     } catch (err) {

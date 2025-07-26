@@ -7,7 +7,7 @@ const Revenue = () => {
   useEffect(() => {
     const fetchRevenue = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/revenue');
+        const response = await axios.get('https://event-management-server-9kdv.onrender.com/api/revenue');
         setRevenueData(response.data);
       } catch (err) {
         console.error('Error fetching revenue:', err);

@@ -43,7 +43,7 @@ const Profile = () => {
       }
 
       try {
-        const response = await axios.get(`http://localhost:5000/api/organizer/${organizerId}`, {
+        const response = await axios.get(`https://event-management-server-9kdv.onrender.com/api/organizer/${organizerId}`, {
           headers: {
             Authorization: `Bearer ${token}`
           }

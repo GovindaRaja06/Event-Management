@@ -58,7 +58,7 @@ const Adetail = () => {
   useEffect(() => {
     const fetchAttendees = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/api/attendees/event/${eventId}`);
+        const response = await fetch(`https://event-management-server-9kdv.onrender.com/api/attendees/event/${eventId}`);
         const data = await response.json();
         setAttendees(data); // backend returns attendee list with populated userId
         setLoading(false);

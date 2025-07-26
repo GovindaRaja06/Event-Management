@@ -31,7 +31,7 @@ function Login() {
     e.preventDefault();
     // below is try catch
     try {
-      const res = await axios.post('http://localhost:5000/auth/login', formdata);
+      const res = await axios.post('https://event-management-server-9kdv.onrender.com5000/auth/login', formdata);
 
       // Save JWT token and user info
       localStorage.setItem('token', res.data.token);
@@ -39,7 +39,7 @@ function Login() {
       localStorage.setItem('role', res.data.role);
 
       // Verify token after login
-      const verifyRes = await axios.get('http://localhost:5000/api/users/verify', {
+      const verifyRes = await axios.get('https://event-management-server-9kdv.onrender.com/api/users/verify', {
         headers: {
           Authorization: `Bearer ${res.data.token}`,
         },

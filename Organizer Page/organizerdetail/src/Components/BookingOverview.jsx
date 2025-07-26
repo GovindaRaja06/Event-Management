@@ -8,7 +8,7 @@ const BookingOverview = () => {
   useEffect(() => {
     const fetchBookings = async () => {
       try {
-        const res = await axios.get('http://localhost:5000/api/'); // Backend GET route
+        const res = await axios.get('https://event-management-server-9kdv.onrender.com/api/'); // Backend GET route
         setEvent(res.data);
       } catch (err) {
         console.error('Failed to fetch bookings:', err);

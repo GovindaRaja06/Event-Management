@@ -45,7 +45,7 @@
 //         role: form.role
 //       };
 
-//       const response = await axios.post('http://localhost:5000/api/organizer/register', payload);
+//       const response = await axios.post('https://event-management-server-9kdv.onrender.com/api/organizer/register', payload);
 
 //       localStorage.setItem("token", response.data.token);
 //       localStorage.setItem("organizerId", response.data.organizerId);
@@ -143,7 +143,7 @@ const OrganizerSignup = () => {
         // profileImage: form.profileImage
       };
 
-      const response = await axios.post('http://localhost:5000/organizer-auth/register', payload);
+      const response = await axios.post('https://event-management-server-9kdv.onrender.com/organizer-auth/register', payload);
 
       localStorage.setItem("token", response.data.token || '');
       localStorage.setItem("organizerId", response.data.organizerId);

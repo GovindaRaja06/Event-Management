@@ -29,7 +29,7 @@ const handleSubmit = async (e) => {
 
   try {
     const token = localStorage.getItem('token');
-    const response = await fetch(`http://localhost:5000/api/events/${formData.id}`, {
+    const response = await fetch(`https://event-management-server-9kdv.onrender.com/api/events/${formData.id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',

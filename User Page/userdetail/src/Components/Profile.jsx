@@ -36,7 +36,7 @@
 //       const userId = localStorage.getItem('userId');
 
 //       try {
-//         const res = await axios.get(`http://localhost:5000/api/users/profile/${userId}`, {
+//         const res = await axios.get(`https://event-management-server-9kdv.onrender.com/api/users/profile/${userId}`, {
 //           headers: {
 //             Authorization: `Bearer ${token}`
 //           }
@@ -103,7 +103,7 @@ const Profile = () => {
       const userId = localStorage.getItem('userId');
 
       try {
-        const res = await axios.get(`http://localhost:5000/api/users/profile/${userId}`, {
+        const res = await axios.get(`https://event-management-server-9kdv.onrender.com/api/users/profile/${userId}`, {
           headers: {
             Authorization: `Bearer ${token}`
           }

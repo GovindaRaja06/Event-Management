@@ -11,7 +11,7 @@
 //   useEffect(() => {
 //     const fetchEvent = async () => {
 //       try {
-//         const res = await axios.get(`http://localhost:5000/singleevent/${id}`);
+//         const res = await axios.get(`https://event-management-server-9kdv.onrender.com/singleevent/${id}`);
 //         setEvent(res.data);
 //       } catch (err) {
 //         console.error("Error fetching event:", err.message);
@@ -63,10 +63,10 @@ const Singleevent = () => {
   useEffect(() => {
     const loadEvent = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/api/events/singleevent/${id}`);
-        // const response = await axios.get(`http://localhost:5000/api/events/singleevent/${id}`);
+        const response = await axios.get(`https://event-management-server-9kdv.onrender.com/api/events/singleevent/${id}`);
+        // const response = await axios.get(`https://event-management-server-9kdv.onrender.com/api/events/singleevent/${id}`);
         // console.log(event)
-        // const response = await axios.get(`http://localhost:5000/api/events/singleevent/EVT001`);
+        // const response = await axios.get(`https://event-management-server-9kdv.onrender.com/api/events/singleevent/EVT001`);
         if (response.data) {
           setEvent(response.data);
         } else {

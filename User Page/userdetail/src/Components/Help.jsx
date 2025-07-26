@@ -21,7 +21,7 @@ const Help = () => {
         }
 
         try {
-            const response = await axios.post("http://localhost:5000/api/help/placequery", help); // adjust port if needed
+            const response = await axios.post("https://event-management-server-9kdv.onrender.com/api/help/placequery", help); // adjust port if needed
             console.log("Response:", response.data);
             alert("Your query has been posted");
             setHelp({ name: '', email: '', query: '' });

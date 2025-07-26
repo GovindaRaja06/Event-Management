@@ -8,7 +8,7 @@ const Userrequest = () => {
     useEffect(() => {
     const fetchRequests = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/requests/revent'); // Adjust port if needed
+        const response = await axios.get('https://event-management-server-9kdv.onrender.com/api/requests/revent'); // Adjust port if needed
         setRequests(response.data);
       } catch (err) {
         console.error('Failed to fetch requests:', err);

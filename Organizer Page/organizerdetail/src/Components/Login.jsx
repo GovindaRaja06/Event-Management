@@ -29,7 +29,7 @@ function Login() {
    e.preventDefault(); // prevent default form submission
 
   try {
-    const response = await axios.post('http://localhost:5000/organizer-auth/login', formdata);
+    const response = await axios.post('https://event-management-server-9kdv.onrender.com/organizer-auth/login', formdata);
 
     const { token, organizerId } = response.data;
 

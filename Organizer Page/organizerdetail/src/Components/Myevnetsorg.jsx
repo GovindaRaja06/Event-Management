@@ -11,7 +11,7 @@
 //     const fetchMyEvents = async () => {
 //       try {
 //         const token = localStorage.getItem("token"); // Assumes token is stored on login
-//         const response = await axios.get("http://localhost:5000/api/organizers/my-events", {
+//         const response = await axios.get("https://event-management-server-9kdv.onrender.com/api/organizers/my-events", {
 //           headers: {
 //             Authorization: `Bearer ${token}`,
 //           },
@@ -87,7 +87,7 @@ const Myevnetsorg = () => {
     const fetchMyEvents = async () => {
       try {
         const token = localStorage.getItem('token');
-        const response = await axios.get('http://localhost:5000/api/organizers/my-events', {
+        const response = await axios.get('https://event-management-server-9kdv.onrender.com/api/organizers/my-events', {
           headers: {
             Authorization: `Bearer ${token}`,
           },
