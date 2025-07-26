@@ -31,7 +31,7 @@ function Login() {
     e.preventDefault();
     // below is try catch
     try {
-      const res = await axios.post('https://event-management-server-9kdv.onrender.com5000/auth/login', formdata);
+      const res = await axios.post('https://event-management-server-9kdv.onrender.com/auth/login', formdata);
 
       // Save JWT token and user info
       localStorage.setItem('token', res.data.token);
